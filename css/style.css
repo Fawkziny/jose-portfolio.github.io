@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007bff, #800080, #000); 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px; 
+  }
+  
+  .blue {
+    background-color: #007bff; 
+  }
+  
+  .purple {
+    background-color: #800080; 
+  }
+  
+  .black {
+    background-color: #000; 
+  }
+  
+
+  .btn:hover {
+    filter: brightness(110%);
+  }
+
+  .social-buttons {
+    margin-top: 20px;
+  }
+  
+  .social-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+  }
+  
+  .facebook {
+    background-color: #3b5998; 
+  }
+  
+  .instagram {
+    background-color: #c32aa3; 
+  }
+  
+  .whatsapp {
+    background-color: #25d366; 
+  }
+  
+
+  .social-btn:hover {
+    filter: brightness(110%);
+  }
+  
+  .experience {
+    margin-top: 20px;
+  }
+  
+  .experience li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .experience li strong {
+    margin-right: 10px;
+  }
+  
+  .experience li .btn {
+    margin-left: 10px;
+  }
+  
